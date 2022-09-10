@@ -1,0 +1,112 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(fonts/ubuntu/Ubuntu-R.ttf);
+}
+@font-face {
+    font-family: ubuntu-b;
+    src: url(fonts/ubuntu/Ubuntu-B.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F2E1;
+    font-family: ubuntu, sans-serif;
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+
+}
+
+body{
+    margin: 0 0 100px;
+}
+
+li, a, button{
+    color: #222222;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: ubuntu-b;
+    text-decoration: none;
+}
+
+header{
+    background-color: #F7F2E1;
+    color: #98B66E;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.header_title {
+    font-family: ubuntu-b;
+    font-size: 32px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #6a804d;
+}
+
+.nav_links li a{
+    transition: all 0.2s ease 0s;
+    color: #93b06a;
+
+}
+
+.nav_links li a:hover{
+    color: #6a804d;
+}
+
+button{
+    padding: 10px 25px;
+    background-color: #f9d876;
+    border: 0px solid #a0c3d9;
+    border-radius: 50px;
+    border-block-start-color: #a0c3d9;
+    transition: all 0.2s ease 0s;
+}
+
+button:hover{
+    background-color: #fbe39d;
+}
+
+.main{
+    background-color: #fbe39d;
+    width: auto;
+    height: 750px;
+    text-align: center;
+}
+
+.main p{
+    background-color: #fbe39d;
+    padding: 50px 50px;
+    font-size: 24px;
+}
+
+.intro{
+    font-family: ubuntu-b;
+}
+
+footer {
+    background-color: #222222;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
