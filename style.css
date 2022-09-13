@@ -22,7 +22,6 @@ html {
 }
 
 body{
-    margin: 0 0 100px;
 
     background-color: #fbe39d;
     min-height: 100%;
@@ -42,27 +41,32 @@ li, a, button{
 header{
     background-color: #F7F2E1;
     color: #98B66E;
+    padding-top: 20px;
     display: flex;
-    justify-content: right;
-    align-items: center;
-    padding: 30px 10%;
+    flex-direction: column;
+    
 }
 
 .nav_links {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #F7F2E1;
 }
 
 .header_title {
     font-family: ubuntu-b;
-    font-size: 32px;
+    font-size: 26px;
     cursor: pointer;
-    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .nav_links li {
     display: inline-block;
-    padding: 10px 10px;
     text-decoration: none;
+    flex-direction: row;
+    padding: 15px 20px;
     color: #6a804d;
 }
 
@@ -88,6 +92,7 @@ header{
     background-color: #fbe39d;
     padding: 50px 10%;
     font-size: 24px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
     
 }
 
