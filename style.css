@@ -52,6 +52,7 @@ header{
     display: flex;
     justify-content: center;
     background-color: #F7F2E1;
+   
 }
 
 .header_title {
@@ -84,24 +85,29 @@ header{
 .main{
     background-color: #fbe39d;
     width: auto;
-    height: 750px;
+    height: 600px;
     text-align: center;
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.459);
+}
+
+.main div {
+    box-shadow: 2px 2px;
 }
 
 .main p{
     background-color: #fbe39d;
     padding: 50px 10%;
     font-size: 24px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-    
 }
 
 .intro{
     font-family: ubuntu-b;
 }
 
+
 footer {
     background-color:#F7F2E1;
     padding: 3em;
     margin-top: auto;
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.459);
 }
