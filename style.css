@@ -28,10 +28,10 @@ body{
 li, a, button{
     color: #222222;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     font-family: ubuntu-b;
     text-decoration: none;
-    list-style-type: none;
+    /*list-style-type: none;*/
 }
 
 header{
@@ -47,7 +47,7 @@ header{
 
 .header_title {
     font-family: ubuntu-b;
-    font-size: 26px;
+    font-size: 30px;
     cursor: pointer;
     text-align: center;
     padding-bottom: 20px;
@@ -56,12 +56,13 @@ header{
 .nav_links li {
     padding: 10px 10px;
     color: #6a804d;
+    list-style-type: none;
 }
 
 .nav_links li a{
     transition: all 0.2s ease 0s;
     color: #93b06a;
-
+    margin: auto;
 }
 
 .link-row {
@@ -86,6 +87,7 @@ header{
 
 .main-info{
     padding: 10%;
+    line-height: 32px;
 }
 
 .intro{
@@ -94,10 +96,37 @@ header{
     font-size: 24px;
 }
 
-
 footer {
-    background-color:#F7F2E1;
-    padding: 3em;
+    background-color:#F7F2E1;    /* box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.459); */
     margin-top: auto;
-    /* box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.459); */
+    display: flex;
+}
+
+.footer-info{
+    font-size: 18px;
+    padding: 10px 40px 20px;
+}
+
+.footer-social{
+    padding-right: 40px;
+    line-height: 40px;
+
+}
+
+@media only screen and (min-width: 768px){
+    .header{
+        display: flex;
+    }
+
+    .header_title{
+        padding-left: 40px;
+    }
+
+    .link-3{
+        padding-right: 40px;
+    }
+
+    .nav_links{
+        margin-left: auto;
+    }
 }
